@@ -1,0 +1,45 @@
+:root {
+    --purple: rgb(88, 11, 144);
+    --lightPurple: rgb(240, 136, 240);
+    --black: black;
+    --white: white;
+    font-family: "Times", sans-serif, Grande;
+    
+} 
+
+.infoBox {
+    text-align: center;
+    
+}
+
+#highscore {
+    color: var(--purple);
+    position: static;
+    grid: 1px ;
+    
+}
+.hide {
+display: none;
+
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    text-align: center;
+    word-wrap: normal;
+    padding: 5px 250px 5px 250px;
+
+}
+button {
+    background-color: var(--purple);
+    color: var(--white);
+    border-spacing: 100px;
+    display: block;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 4px 4px 4px 4px;
+    
+}
