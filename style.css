@@ -12,11 +12,15 @@
     
 }
 
-#highscore {
+#highscore , h4 {
     color: var(--purple);
     position: static;
-    grid: 1px ;
+    display: inline;
     
+}
+b {
+    float: right;
+    color: var(--black);
 }
 .hide {
 display: none;
@@ -29,17 +33,25 @@ ul {
 
 p {
     text-align: center;
-    word-wrap: normal;
+    font-weight: bold;
     padding: 5px 250px 5px 250px;
+    font-size: larger;
 
 }
+
 button {
     background-color: var(--purple);
     color: var(--white);
     border-spacing: 100px;
-    display: block;
+    display: inline;
     padding: 5px;
     margin: 3px;
     border-radius: 4px 4px 4px 4px;
     
+}
+#questionBox {
+text-align: center;
+}
+li {
+    margin-right: 300px;
 }

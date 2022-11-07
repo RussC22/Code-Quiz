@@ -10,18 +10,29 @@
     <title>Code_Quiz</title>
   </head>
   <body>
-    <div class="highscore" id="highscore"><h4>View Highscore</h4></div>
+    <!-- Top section -->
+    <div class="highscore" id="highscore">
+      <h4>View Highscore</h4>
+      <b>Timer: 00:00</b>
+    </div>
 
-    <!-- section that says "Coding Quiz Challenge; Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!" -->
+    <!-- Introduction section -->
 
-    <div class="infoBox" id="infoBox"><h1>Coding Quiz Challenge</h1> <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
-    <button class="start" id="start">Start Quiz</button>
-</div>
+    <div class="infoBox" id="infoBox">
+      <h1>Coding Quiz Challenge</h1> 
+        <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!
+        </p>
+      <button class="start" id="start">
+        Start Quiz
+      </button>
+    </div>
 
-    <!-- first question -->
+    <!-- Question box-->
 
     <div class="questionBox hide" id="questionBox">
-      Common used data types DO NOT include:
+        <p>
+          Common used data types DO NOT include:
+        </p>
       <ul>
         <li><button>1.strings</button></li>
         <li><button>2.booleans</button></li>
@@ -31,13 +42,24 @@
 
 
     </div>
-    <div class="initials hide" id="initials">Enter initials: <input type=" "> <button>Submit</button></div>
+    <!-- Final Score section -->
+    <div class="initials hide" id="initials">
+      <h1>All Dont!</h1>
+      <p>Yourfinal score is  </p>      
+      Enter initials: <input type=" "> <button>Submit</button>
+    </div>
 
-    <div class= "highScore hide" id="highScore"></div>
+    <!-- Highscore section -->
+    <div class= "highScore hide" id="highScore">
+      <h1>HifhScores</h1>
+      <button>Go Back</button>  
+      <button>Clear Highscores</button>
 
     </div>
 
-    <!-- Timer top left corner (75s) -->
+    </div>
+
+    
   </body>
   <footer>
     <!-- javaScript link -->
