@@ -2,6 +2,10 @@
 
 a timed coding quiz with multiple-choice questions. This app will run in the browser and features dynamically updated HTML and CSS powered by JavaScript code.
 
+## Instruction 
+
+Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!
+
 ## Technologies
 
 HTML
