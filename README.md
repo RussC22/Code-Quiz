@@ -15,7 +15,9 @@ CSS
 n/a
 
 ### Preview
+
 <img width="2039" alt="Screenshot 2022-11-07 at 11 29 20 PM" src="https://user-images.githubusercontent.com/114961971/200475462-f2ccc289-3152-4f62-a08c-45e622e34bca.png">
 
-###License
-n/A
+### License
+
+n/a
