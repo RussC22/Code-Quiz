@@ -1,9 +1,10 @@
-// ID selectors
+// variables for html
 var questionBox= document.getElementById("questionBox")
 var initials= document.getElementById ("initials")
 var highScore= document.getElementById ("highScore")
 var start= document.getElementById ("start")
 var infoBox= document.getElementById ("infoBox")
+// questions & choices
 var questionArray= [{
     questionName:"Common used data types DO NOT include:", 
     choices:["1.strings", "2.booleans","3.alerts","4.numbers"], solution: "3.alerts"
@@ -17,6 +18,7 @@ var questionArray= [{
 
 
 ]
+// Timer
 var Timer= document.getElementsByName("Timer")
 
 
@@ -30,3 +32,8 @@ initials.classList.add("hide")
 
 start.addEventListener("click",startQuiz)
 console.log()
+// end quiz 
+
+// final score
+
+// highscore page
